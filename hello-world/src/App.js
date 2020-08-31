@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import ClickCounter from "./components/ClickCounter";
+import PostForm from "./components/PostForm";
+import ListPosts from "./components/ListPosts";
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter name="Anthony" />
+      <PostForm />
+      <ListPosts />
     </div>
   );
 }
